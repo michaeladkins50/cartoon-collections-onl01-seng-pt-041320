@@ -8,6 +8,7 @@ end
 
 def summon_captain_planet(array)# code an argument here
   i=0# Your code here  fruit_basket = []
+  if array == array.downcase
   while i < array.length
     array.map!{|produce| (produce.capitalize + "!")}
     i += 1
