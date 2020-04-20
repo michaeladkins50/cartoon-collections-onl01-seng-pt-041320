@@ -7,13 +7,13 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(array)# code an argument here
-  nu_array = []
   i = 0
+  produce = []
   while i < array.length
-    nu_array << array[i].capitalize + "!"
+    produce << array[i].capitalize + "!"
     i += 1
   end
-  nu_array
+  produce
 end
 def long_planeteer_calls# code an argument here
   # Your code here
