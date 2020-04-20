@@ -7,13 +7,13 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(array)# code an argument here
-  i=0# Your code here  fruit_basket = []
-
-    while i < array.length
-      array.map!{|produce| (produce.capitalize + "!")}
-      i += 1
-    end
-  array
+  nu_array = []
+  i = 0 
+  while i < array.length 
+    nu_array << array[i].capitalize + "!"
+    i += 1 
+  end 
+  nu_array
 end
 def long_planeteer_calls# code an argument here
   # Your code here
